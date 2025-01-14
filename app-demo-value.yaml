@@ -5,10 +5,10 @@
 replicaCount: 5
 
 image:
-  repository: rockman88v/demoapp
+  repository: vutrongluc/myapp
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: 7
+  tag: latest
 
 imagePullSecrets: []
 nameOverride: ""
